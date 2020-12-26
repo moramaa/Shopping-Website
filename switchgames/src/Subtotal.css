@@ -9,3 +9,10 @@
     border: 2px solid white;
     border-radius: 20px;
 }
+.subtotal_gift{
+    margin-right:5px;
+}
+.subtotal > button{
+    background: #68a178;
+    border-radius: 2px;
+}
