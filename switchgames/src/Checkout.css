@@ -5,12 +5,22 @@
     background-color: rgba#4ce076d5;
     height: max-content;
 }
+.checkout_product{
+    display: flex;
+    margin: auto; 
+}
+
 .checkout_title{
+    display: flex;
     margin-right: 100px;
     padding: 10px;
     border-bottom: 1px solid lightgray;
+    margin-left: 300px;   
+
 }
-.checkout_product{
-    display: flex;
-    margin: auto;    
+.checkout_summary{
+    margin-left: 600px;   
+
+    position: fixed;
+    
 }

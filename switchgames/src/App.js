@@ -5,6 +5,7 @@ import Home from "./Home";
 import Checkout from "./Checkout";
 // rourter dom - for ching paigs
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import Login from "./Login";
 
 
 
@@ -14,14 +15,20 @@ function App() {
     // BEM
     <Router>
       <div className="App">
-      <Header />
+     
       <Switch>
       {/* checkout route */}
          <Route path="/checkout">
+         <Header />
           <Checkout/>
+          </Route>
+      {/* Login route */}
+         <Route path="/Login">
+          <Login />
           </Route>
        {/*  default route */}
          <Route path="/">
+         <Header />
           <Home /> 
           </Route>
     </Switch>

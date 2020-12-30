@@ -14,7 +14,6 @@ function Checkout() {
              
             <div >
                 <h2 className="checkout_title">המוצרים שלך </h2>
-            </div>
    
 
             {basket.map(item => (
@@ -25,8 +24,9 @@ function Checkout() {
                 price={item.price}
                 rating={item.rating}
                 />
-
-            ))}
+                
+                ))}
+            </div>
 
             <div className="checkout_summary">
                 <h2>סיכום הקניה</h2>
