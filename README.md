@@ -1,5 +1,5 @@
 # Shopping website 
-## bilde whit React and Firebase
+## Built by React and Firebase
 
 
 
